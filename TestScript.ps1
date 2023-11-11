@@ -8,7 +8,7 @@ $ScriptName = "TestScript"
 Log-Script -ScriptName $ScriptName -ScriptVersion $ScriptVersion -UniqueId $UniqueId -MessageType "Start" -ErrorCode 0
 
 try {
-    Log-Script -ScriptName $ScriptName -ScriptVersion $ScriptVersion -UniqueId $UniqueId -MessageType "Info" -ErrorCode 0 -ErrorDescription "Try"
+    Log-Script -ScriptName $ScriptName -ScriptVersion $ScriptVersion -UniqueId $UniqueId -MessageType "Info" -ErrorCode 0 -ErrorDescription "Start try"
     Start-Sleep -Seconds 10
     $a = 1/0
     
